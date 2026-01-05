@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BK Creative - Portfolio</title>
+  <link rel="stylesheet" href="index2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="index.js"></script>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">BK Creative</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Réalisations</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://www.tiktok.com" target="_blank" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.facebook.com" target="_blank" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/22891543227" target="_blank" class="social whatsapp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-text">
+      <h3>Bienvenue, je suis</h3>
+      <h1>Bonkey FIAGNIGBE</h1>
+      <h2>Développeuse Créative</h2>
+      <p>Explorez mes réalisations et plongez dans des expériences digitales conçues pour inspirer et offrir des solutions innovantes.</p>
+      <div class="buttons">
+        <a href="#" class="btn">Mon CV</a>
+        <a href="#projects" class="btn btn-outline">Mes Réalisations</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://images.unsplash.com/photo-1607746882042-944635dfe10e" alt="photo développeur">
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis passionnée par le développement d’applications web et mobiles, avec un œil attentif pour le design UI/UX et l’expérience utilisateur.</p>
+    <div class="stats">
+      <div><span>50+</span> Projets réalisés</div>
+      <div><span>5+</span> Années d’expérience</div>
+      <div><span>30+</span> Clients satisfaits</div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+      <div class="card"><h3>Design UI/UX</h3><p>Création d’interfaces intuitives et esthétiques.</p></div>
+      <div class="card"><h3>Développement Web</h3><p>Sites modernes et performants.</p></div>
+      <div class="card"><h3>Développement Mobile</h3><p>Apps fluides Android & iOS.</p></div>
+      <div class="card"><h3>Formation</h3><p>Formations pratiques et sur mesure.</p></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <h2>Mes Réalisations</h2>
+    <div class="project-gallery">
+      <div class="project-card"><img src="https://images.unsplash.com/photo-1581091012184-5c7b4e57a3d0"><h3>E-learning</h3><p>Design & Dev Web</p></div>
+      <div class="project-card"><img src="https://images.unsplash.com/photo-1551817958-20204d6ab4b8"><h3>Travel App</h3><p>Mobile / Design</p></div>
+      <div class="project-card"><img src="https://images.unsplash.com/photo-1612831455549-228b83c04eae"><h3>Landing Page</h3><p>Web Design</p></div>
+      <div class="project-card"><img src="https://images.unsplash.com/photo-1593642632559-0c5d3adba6d1"><h3>Furniture App</h3><p>App Design</p></div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <h2>Mes Compétences</h2>
+    <div class="skills-container">
+      <div class="skill"><span>Développement Web</span><div class="bar"><div class="fill" style="width: 80%;"></div></div></div>
+      <div class="skill"><span>Développement Mobile</span><div class="bar"><div class="fill" style="width: 70%;"></div></div></div>
+      <div class="skill"><span>Design UI/UX</span><div class="bar"><div class="fill" style="width: 65%;"></div></div></div>
+      <div class="skill"><span>Formation</span><div class="bar"><div class="fill" style="width: 75%;"></div></div></div>
+      <div class="skill"><span>Communication</span><div class="bar"><div class="fill" style="width: 60%;"></div></div></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 BK Creative — Tous droits réservés</p>
+  </footer>
+
+  <!-- Canevas pour effets -->
+  <canvas id="fireworks"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>

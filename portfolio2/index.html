@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BK Creative - Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <!-- Icônes Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">MANU TECH</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Réalisations</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Réseaux sociaux -->
+      <div class="social-icons">
+        <a href="https://www.tiktok.com" target="_blank" class="social tiktok"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.facebook.com" target="_blank" class="social facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://wa.me/22891567521" target="_blank" class="social whatsapp"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero">
+    <div class="hero-text">
+      <h3>Bienvenue, je suis</h3>
+      <h1>Emmanuel Yaovi ASSOGBA</h1>
+      <h2>Développeur web</h2>
+      <p>Développeur web | Passionné par la création de solutions web
+innovantes et technicien en Finance banque.</p>
+      <div class="buttons">
+       <button class="cv">
+        <a href="#">Mon CV</a>
+      </button> 
+      <button class="cv"> <a href="#projects">Mes Réalisations</a></button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="manou3.jpeg" alt="photo emma">
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis passionnée par le développement d’applications web et mobiles, 
+      avec un œil attentif pour le design UI/UX et l’expérience utilisateur. J’aime transformer des idées en solutions digitales concrètes 
+      et créer des expériences interactives qui captivent et inspirent.</p>
+    <div class="stats">
+      <div><span>50+</span> Projets réalisés</div>
+      <div><span>5+</span> Années d’expérience</div>
+      <div><span>30+</span> Clients satisfaits</div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <h2>Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Design UI/UX</h3>
+        <p>Création d’interfaces intuitives et esthétiques pour le web et le mobile.</p>
+      </div>
+      <div class="card">
+        <h3>Développement Web</h3>
+        <p>Conception de sites web performants, modernes et réactifs.</p>
+      </div>
+      <div class="card">
+        <h3>Développement Mobile</h3>
+        <p>Applications mobiles fluides et intuitives pour Android et iOS.</p>
+      </div>
+      <div class="card">
+        <h3>Maintenance Informatique</h3>
+        <p>Réparation d'ordinateurs, Installation de wifi-zone, Configuration d'un serveur de streaning sur un réseau local</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <h2>Mes Réalisations</h2>
+    <div class="project-gallery">
+      <div class="project-card">
+        <img src="online.jpg" alt="E-learning">
+        <h3>Plateforme E-learning</h3>
+        <p>Design Web / Développement Web</p>
+      </div>
+      <div class="project-card">
+        <img src="Travel.jpg" alt="App Voyage">
+        <h3>Application de voyage</h3>
+        <p>Développement Mobile / App Design</p>
+      </div>
+      <div class="project-card">
+        <img src="disign.jpg" alt="Landing Page">
+        <h3>Landing Page</h3>
+        <p>Web Design</p>
+      </div>
+      <div class="project-card">
+        <img src="furni.jpg" alt="Application Meuble">
+        <h3>Furniture Mobile App</h3>
+        <p>App Design / Développement Mobile</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <h2>Mes Compétences</h2>
+    <div class="skills-container">
+      <div class="skill"><span>Développement Web</span><div class="bar"><div class="fill" style="width: 80%;"></div></div></div>
+      <div class="skill"><span>Développement Mobile</span><div class="bar"><div class="fill" style="width: 70%;"></div></div></div>
+      <div class="skill"><span>Design UI/UX (Figma)</span><div class="bar"><div class="fill" style="width: 65%;"></div></div></div>
+      <div class="skill"><span>Formation & Coaching</span><div class="bar"><div class="fill" style="width: 75%;"></div></div></div>
+      <div class="skill"><span>Maintenance Informatique</span><div class="bar"><div class="fill" style="width: 60%;"></div></div></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contactez-moi</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Manu-Tech — Tous droits réservés</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
